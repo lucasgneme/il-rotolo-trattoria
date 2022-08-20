@@ -8,13 +8,14 @@ import MailIconDesktop from '../components/DesktopIcons/MailIconDesktop'
 import PhoneIconDesktop from '../components/DesktopIcons/PhoneIconDesktop'
 import WhatsAppIconDesktop from '../components/DesktopIcons/WhatsAppIconDesktop'
 import Navbar from '../components/Navbar'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
     <>
       <Head>
         <title>Il Rotolo | Home</title>
-        <meta name='description' content='My App on Next.js' />
+        <meta name='description' content='Cocina de autor y con amor. Ka♥' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="max-w-5xl mx-auto flex flex-row px-5 py-[1px] items-center justify-center md:justify-between bg-[#0a1505fd] text-gray-400">
@@ -85,6 +86,9 @@ const Home: NextPage = () => {
         </div>
       </header>
       <Layout>
+        <div>
+          <div className='hero' />
+        </div>
       </Layout>
       <Navbar />
     </>

@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { PiattoDetail, PiattoDetailProps } from './PiattoDetail'
 
 export interface PiattoListProps {

@@ -48,7 +48,7 @@ const Menu: NextPage = () => {
     <>
       <Head>
         <title>Il Rotolo | Carta</title>
-        <meta name="description" content="My App on Next.js" />
+        <meta name='description' content='Cocina de autor y con amor. Ka♥' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="max-w-5xl mx-auto flex flex-row px-5 py-[1px] items-center justify-center md:justify-between bg-[#0a1505fd] text-gray-400">
