@@ -9,7 +9,8 @@ module.exports = {
       pacifico: ['Pacifico', 'cursive'],
       crete: ['Crete Round', 'serif'],
       raleway: ['Raleway', 'sans-serif'],
-      alegreya: ['Alegreya', 'serif']
+      alegreya: ['Alegreya', 'serif'],
+      nunito: ['Nunito', 'sans-serif']
     },
     extend: {},
   },

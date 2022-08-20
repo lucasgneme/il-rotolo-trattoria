@@ -2,7 +2,7 @@ import * as React from 'react'
 
 interface PiattoCategoryProps {
     title: string
-    piatto: string
+    piatto : string
     handleFilter: (piatto: string) => void
 }
 
@@ -17,7 +17,7 @@ const PiattoCategory: React.FC <PiattoCategoryProps> = ({
       className='categoryBtn flex items-center justify-start pl-3 rounded-md bg-gray-50 p-2 hover:bg-gray-100 shadow-md'
     >
       <span 
-        className='text-sm md:text-md xl:text-2xl pr-2'
+        className='text-md md:text-md xl:text-2xl pr-2'
         role={'img'} 
         aria-label={title}
       >
@@ -25,7 +25,7 @@ const PiattoCategory: React.FC <PiattoCategoryProps> = ({
       </span>
       <p 
         className='text-sm font-bold break-words'
-      >{piatto || 'Todos'}</p>
+      >{piatto || 'Tutti (Todos)'}</p>
     </button>
   )
 }

@@ -17,9 +17,10 @@ import piattosData from '../data/piattos'
 
 const Menu: NextPage = () => {
   const [filteredPiattos, setFilteredPiattos] = useState(
-    piattosData.slice(0, 100)
+    piattosData.sort((a, b) => a.title.localeCompare(b.title))
   )
   const [currentSearch, setCurrentSearch] = useState('')
+  
   const handleSearchFilter = (target: string) => {
     setCurrentSearch(target.trim())
     if (target.trim().length > 0) {
@@ -29,7 +30,7 @@ const Menu: NextPage = () => {
         })
       )
     } else {
-      setFilteredPiattos(piattosData)
+      setFilteredPiattos(piattosData.sort((a, b) => a.title.localeCompare(b.title)))
     }
   }
   const handleCategoryFilter = (target: string) => {
@@ -40,7 +41,7 @@ const Menu: NextPage = () => {
         })
       )
     } else {
-      setFilteredPiattos(piattosData)
+      setFilteredPiattos(piattosData.sort())
     }
   }
   return (
@@ -86,14 +87,14 @@ const Menu: NextPage = () => {
         <Link href='/'>
           <div className='flex'>
             <div className='md:flex hidden w-10'></div>
-            <div className='flex flex-col items-center justify-end'>
+            <div className='flex flex-col items-center justify-end cursor-pointer'>
               <h2 className='logoShadow text-4xl font-pacifico font-medium text-[#f43a3a] '>
                 Il Rotolo
               </h2>
               <span className='logoShadow text-md font-crete font-bold text-[#f43a3a]'>Trattoria al paso</span>
             </div>
             <div
-              className='logo logoShadow'
+              className='logo logoShadow cursor-pointer'
             />
           </div>
         </Link>
@@ -107,6 +108,9 @@ const Menu: NextPage = () => {
             </Link>
             <Link href="/reviews">
               <a>Reseñas</a>
+            </Link>
+            <Link href="/gallery">
+              <a>Recetas</a>
             </Link>
             <Link href="/gallery">
               <a>Galería</a>

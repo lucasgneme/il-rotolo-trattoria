@@ -7,7 +7,8 @@ const nextConfig = {
       'i.postimg.cc',
       'jumboargentina.vtexassets.com',
       'd2j6dbq0eux0bg.cloudfront.net',
-      'thefoodtech.com'
+      'thefoodtech.com',
+      'carrefourar.vtexassets.com'
     ]
   }
 }

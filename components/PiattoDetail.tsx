@@ -95,7 +95,7 @@ const PiattoDetail: React.FC<PiattoDetailProps> = ({
                 <div className='flex items-center justify-around mt-2 text-white'>
                   <button
                     type='button'
-                    className='inline-flex justify-center px-2 py-2 text-sm font-crete bg-[#E90D0D] border border-transparent rounded-md hover:bg-[#e84040] focus:ring-none'
+                    className='inline-flex justify-center px-2 py-2 text-sm font-nunito font-bold bg-[#E90D0D] border border-transparent rounded-md hover:bg-[#e84040] focus:ring-none'
                     onClick={() => setIsOpen(false)}
                   >
                     VOLVER
