@@ -82,8 +82,8 @@ const Home: NextPage = () => {
         </div>
       </header>
       <Layout>
-        <Navbar />
       </Layout>
+      <Navbar />
     </>
   )
 }
