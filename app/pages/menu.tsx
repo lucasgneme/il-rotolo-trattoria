@@ -6,13 +6,14 @@ import Layout from '../components/Layout'
 import { PiattoList } from '../components/PiattoList'
 import { PiattoCategory } from '../components/PiattoCategory'
 
-import piattosData from '../data/piattos'
 import PhoneIconDesktop from '../components/DesktopIcons/PhoneIconDesktop'
 import MailIconDesktop from '../components/DesktopIcons/MailIconDesktop'
 import WhatsAppIconDesktop from '../components/DesktopIcons/WhatsAppIconDesktop'
 import InstagramIconDesktop from '../components/DesktopIcons/InstagramIconDesktop'
 import FacebookIconDesktop from '../components/DesktopIcons/FacebookIconDesktop'
 import Navbar from '../components/Navbar'
+
+import piattosData from '../data/piattos'
 
 const Menu: NextPage = () => {
   const [filteredPiattos, setFilteredPiattos] = useState(

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import * as React from 'react'
+import React, { useState } from 'react'
 import HamburgerIcon from './HamburgerIcon/HamburgerIcon'
 import FacebookIconMobile from './MobileIcons/FacebookIconMobile'
 import InstagramIconMobile from './MobileIcons/InstagramIconMobile'

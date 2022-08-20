@@ -8,7 +8,8 @@ module.exports = {
     fontFamily: {
       pacifico: ['Pacifico', 'cursive'],
       crete: ['Crete Round', 'serif'],
-      raleway: ['Raleway', 'sans-serif']
+      raleway: ['Raleway', 'sans-serif'],
+      alegreya: ['Alegreya', 'serif']
     },
     extend: {},
   },
