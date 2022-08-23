@@ -8,7 +8,6 @@ import MailIconDesktop from '../components/DesktopIcons/MailIconDesktop'
 import PhoneIconDesktop from '../components/DesktopIcons/PhoneIconDesktop'
 import WhatsAppIconDesktop from '../components/DesktopIcons/WhatsAppIconDesktop'
 import Navbar from '../components/Navbar'
-import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -76,7 +75,7 @@ const Home: NextPage = () => {
             <Link href="/reviews">
               <a>Reseñas</a>
             </Link>
-            <Link href="/gallery">
+            <Link href="/recipe">
               <a>Recetas</a>
             </Link>
             <Link href="/gallery">
@@ -86,9 +85,6 @@ const Home: NextPage = () => {
         </div>
       </header>
       <Layout>
-        <div>
-          <div className='hero' />
-        </div>
       </Layout>
       <Navbar />
     </>
