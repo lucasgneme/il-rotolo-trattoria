@@ -73,7 +73,7 @@ const Recipes: NextPage = () => {
             <Link href="/reviews">
               <a>Reseñas</a>
             </Link>
-            <Link href="/gallery">
+            <Link href="/recipe">
               <a>Recetas</a>
             </Link>
             <Link href="/gallery">

@@ -24,7 +24,7 @@ const PiattoCategory: React.FC <PiattoCategoryProps> = ({
         {title}
       </span>
       <p 
-        className='text-sm font-bold break-words'
+        className='text-md font-bold break-words'
       >{piatto || 'Tutti (Todos)'}</p>
     </button>
   )
